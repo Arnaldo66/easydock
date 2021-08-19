@@ -1,0 +1,3 @@
+nginx:
+  image: edyan/nginx:1.10-debian
+  container_name: {{ project }}_nginx

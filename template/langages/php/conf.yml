@@ -1,0 +1,3 @@
+php:
+  image: edyan/php:7.4
+  container_name: {{ project }}_symfo

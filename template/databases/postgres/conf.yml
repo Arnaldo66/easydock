@@ -1,0 +1,8 @@
+postgres:
+  image: postgres
+  container_name: {{ project }}_postgres
+  restart: always
+  environment:
+    POSTGRES_PASSWORD: posgresql
+  volumes:
+    - ./data:/var/lib/postgresql/data
